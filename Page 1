@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valoria Smith</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #5d3f6a;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        nav {
+            float: right;
+            margin-top: 10px;
+        }
+        nav a {
+            margin-left: 20px;
+        }
+        .about, .books, .contact {
+            background: #fff;
+            padding: 15px;
+            margin-top: 10px;
+            color: #333;
+        }
+        .about {
+            background-color: #e6e6fa;
+        }
+        .books {
+            background-color: #f8f8ff;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #5d3f6a;
+            color: #fff;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Valoria Smith</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#books">Books</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Valoria</h2>
+            <p>Valoria Smith, a retired classroom teacher, has embarked on a journey as an author. With a passion for sharing knowledge and stories, she aims to inspire others through her writing.</p>
+        </section>
+        <section id="books" class="books">
+            <h2>Books</h2>
+            <p><strong>Adventures Across Times: 7 Short Stories for Curious Minds</strong> - A collection of engaging short stories designed to captivate and educate young minds. <a href="https://www.amazon.com/dp/B0DCGH13TT/ref=sr_1_1?crid=42IXBI1OEOQ7&dib=eyJ2IjoiMSJ9.uCAdM9qfKcJya_wcZKqBC93pywsWdAty4bEnH1uONaXGjHj071QN20LucGBJIEps._vQ7c7HUH5qlP6RUYSF9oJH6jHXfF_SI5F5IAzZFo6k&dib_tag=se&keywords=valoria+smith&qid=1723143866&sprefix=valoria+smith%2Caps%2C434&sr=8-1">Purchase on Amazon</a></p>
+            <p><strong>Teacher’s Tranquil Moments: A Coloring Book for Teachers</strong> - This coloring book offers a peaceful escape for teachers looking to unwind and relax. <a href="https://www.amazon.com/dp/B0DCHVTKFP/ref=sr_1_2?crid=42IXBI1OEOQ7&dib=eyJ2IjoiMSJ9.uCAdM9qfKcJya_wcZKqBC93pywsWdAty4bEnH1uONaXGjHj071QN20LucGBJIEps._vQ7c7HUH5qlP6RUYSF9oJH6jHXfF_SI5F5IAzZFo6k&dib_tag=se&keywords=valoria+smith&qid=1723143866&sprefix=valoria+smith%2Caps%2C434&sr=8-2">Purchase on Amazon</a></p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>For inquiries, please email <a href="mailto:valoriabookcorner@gmail.com">valoriabookcorner2gmail.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>Copyright © 2024 Valoria Smith</p>
+    </footer>
+</body>
+</html>
